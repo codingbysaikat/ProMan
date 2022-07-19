@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url(../images/1.png);
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+}
+.main-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+    text-align: center;
+   
+}
+.navgation{
+    flex-basis: 80%;
+    
+}
+.navgation nav ul{
+    display: flex;
+    float: right;
+}
+.navgation nav ul li{
+list-style: none;
+padding: 10px;
+margin: 5px;
+}
+.navgation nav ul li a{
+    color: #ffff;
+    font-family: 'Sora', sans-serif;
+   
+
+}
+.header-text{
+    position: absolute;
+    left: 80px;
+    top: 415px;
+    
+    font-family: 'Sora', sans-serif;
+    color: #ffff;
+    
+}
+.header-text h1{
+    font-weight: 100;
+    font-size: 94px;
+    
+  
+    
+}
+.cmp-name{
+    font-weight: 900;
+}
+.header-text p{
+    width: 700px;
+}
+.part-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
