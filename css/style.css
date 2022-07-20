@@ -6,6 +6,26 @@
 a{
     text-decoration: none;
 }
+section{
+    margin: 0 50px;
+    padding-top: 80px;
+}
+h2{
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 70px; 
+    align-items: center;
+    text-transform: uppercase;
+    color: #4F6A7B;
+    
+}
+p{
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    
+}
 header{
     background-image: url(../images/1.png);
     background-repeat: no-repeat;
@@ -69,5 +89,53 @@ margin: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
+    
+}
+.text-part h2{
+    padding-right: 49px;
+}
+.text-part p{
+    color: #3C3B3B;
+
+}
+
+.image-part-2 img{
+    width: 100%;
+    height: auto;
+
+}
+.text-part-2{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.left-text{
+    flex-basis: 50%;
+}
+.left-text p{
+
+    color: #3C3B3B;
+}
+.right-text{
+    flex-basis: 50%;
+}
+.right-text h2{
+    text-align: right;
+
+}
+.part-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.images-part-4{
+    flex-basis: 50%;
+}
+.text-part-4{
+    flex-basis: 50%;
+}
+.images-part-4 img{
+ float: right;
+   height: auto;
 }
