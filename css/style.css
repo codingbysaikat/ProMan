@@ -135,7 +135,60 @@ margin: 5px;
 .text-part-4{
     flex-basis: 50%;
 }
+.text-part-4 p{
+    color: #4F6A7B;
+}
 .images-part-4 img{
  float: right;
    height: auto;
+}
+.part-5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-part-5{
+    margin-right: 153px;
+}
+.text-part-5 p{
+    color: #4F6A7B;
+}
+/* start service css */
+.src-first{
+    margin: 0;
+    padding: 0;
+}
+.src-prt-first img{
+    width: 100%;
+
+}
+.src-prt-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.src-prt-1-text{
+    flex-basis: 50%;
+    padding: 0px 50px;
+
+}
+.src-prt-1-img{
+    flex-basis: 50%;
+}
+.src-prt-1-img img{
+    width: 100%;
+}
+.src-prt-1-text p{
+    color: #4F6A7B;
+ 
+}
+.src-prt-seconed{
+    
+}
+
+.src-prt-1-text-img-left{
+    padding-left: 90px;
+}
+.src-prt-1-text-img-right{
+    padding-left: 40px;
 }
