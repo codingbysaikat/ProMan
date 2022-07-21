@@ -188,9 +188,6 @@ margin: 5px;
     color: #4F6A7B;
  
 }
-.src-prt-seconed{
-    
-}
 
 .src-prt-1-text-img-left{
     padding-left: 90px;
@@ -210,4 +207,49 @@ margin: 5px;
 }
 .capabilites-last{
     margin: 0;
+}
+/* start products page style */
+.product-head{
+    background-image: url(../images/v01_blur-20\ 1.jpg);
+}
+.pro-h2{
+    font-size: 40px !important;
+}
+.pro-cal{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.child{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.child-image{
+    flex-basis: 50%;
+}
+.child-image img{
+    width: 100%;
+   height: auto;
+}
+.child-desc{
+    flex-basis: 50%;
+}
+.child-desc ul li{
+    list-style: none;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #3C3B3B;
+    align-items: center;
+    display: flex;
+    margin: 16px 0px;
+}
+.child-desc ul li img{
+    margin-right: 15px;
 }
