@@ -91,6 +91,12 @@ margin: 5px;
     justify-content: space-between;
     
 }
+.text-part{
+    flex-basis: 50%;
+}
+.image-part{
+    flex-basis: 50%;
+}
 .text-part h2{
     padding-right: 49px;
 }
@@ -191,4 +197,17 @@ margin: 5px;
 }
 .src-prt-1-text-img-right{
     padding-left: 40px;
+}
+.src-header{
+    background-image: url(../images/src\ bg.jpg);
+}
+/* capabilites css start */
+.cpbts-head{
+    background-image: url(../images/capabilites\ bg.png);
+}
+.capabilites-first{
+    text-align: left !important;
+}
+.capabilites-last{
+    margin: 0;
 }
