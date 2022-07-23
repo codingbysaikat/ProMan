@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior:smooth;
 }
 a{
     text-decoration: none;
@@ -252,4 +253,74 @@ margin: 5px;
 }
 .child-desc ul li img{
     margin-right: 15px;
+}
+/* start style for pac&des */
+ .main-produ-h2{
+    text-align: right;
+    float: right !important;
+}
+.main-produ{
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+    
+}
+.pro-single-left{
+    width: 50%;
+    float: left;
+}
+.blank-cal{
+    width: 50%;
+}
+.pro-single-left img{
+    width: 100%;
+}
+.pro-single-right{
+    width: 50%;
+    float: right;
+}
+.pro-single-right img{
+    width: 100%;
+}
+.header-mian{
+    display: flex;
+}
+.main-header2{
+    width: 50%;
+}
+.main-header2 h2{
+    float: right !important;
+    
+}
+/* footer css start */
+footer{
+    background-image: url(../images/src\ bg.jpg);
+}
+.main-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+  
+}
+.footer-left{
+    flex-basis: 65%;
+}
+.footer-right{
+    flex-basis: 35%;
+}
+.footer-right p{
+    text-align: right;
+    color: #FFFF;
+
+}
+.footer-left h2{
+    font-weight: 300;
+    font-size: 76;
+    color: #FFFF;
+}
+.footer-left p{
+    color: #FFFF;
 }
