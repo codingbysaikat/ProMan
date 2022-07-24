@@ -47,18 +47,20 @@ header{
 }
 .navgation{
     flex-basis: 80%;
+ 
     
 }
 .navgation nav ul{
     display: flex;
     float: right;
 }
+
 .navgation nav ul li{
 list-style: none;
 padding: 10px;
 margin: 5px;
 }
-.navgation nav ul li a{
+ nav ul li a{
     color: #ffff;
     font-family: 'Sora', sans-serif;
    
@@ -323,4 +325,8 @@ footer{
 }
 .footer-left p{
     color: #FFFF;
+}
+.last-title{
+    text-align: center;
+    margin: 10px 0px;
 }
