@@ -195,5 +195,59 @@
         font-size: 21px !important;
         line-height: 28px !important;
     }
+}
+/* start for products */
+@media only screen and (max-width: 1274px) {
 
+    .child-desc h2{
+            font-size: 32px !important;
+    }
+    .child-desc ul li{
+        font-size: 17px;
+    }
+    .child-desc ul li img {
+        width: 30px;
+    }
+    .child-desc ul li{
+        margin: 7px 0px !important;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .child-desc h2 {
+        font-size: 21px !important;
+    }
+    .child-desc ul li{
+        font-size: 13px !important;
+    }
+    .child-desc ul li img {
+        margin-right: 8px !important;
+        width: 26px !important;
+    }
+  
+
+}
+@media only screen and (max-width: 632px) {
+    .pro-cal{
+        display: block !important;
+    }
+}
+/* our capability */
+@media only screen and (max-width: 415px) {
+    .text-part h2{
+        font-size: 16px !important;
+
+    }
+    .text-part p{
+        font-size: 12px !important;
+        line-height: 21px !important;
+    }
+    .left-text p{
+        font-size: 12px !important;
+        line-height: 20px !important;
+
+    }
+    .text-part-5 p{
+        font-size: 12px !important;
+        line-height: 23px !important;
+    }
 }
