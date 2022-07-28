@@ -1,6 +1,5 @@
-## psily-web | ## live site 
+## psily-web
 psily-web is a simple static web page. I have converted a Figma file into HTML
-
 [go to the  site](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
 ## Authors
 - [@codingbysaikat](https://www.github.com/codingbysaikat)
